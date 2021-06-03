@@ -28,6 +28,8 @@ from builtins import str
 from builtins import range
 
 import msgpack
+import msgpack_numpy as m
+m.patch()
 import gevent.pool
 import gevent.queue
 import gevent.event
